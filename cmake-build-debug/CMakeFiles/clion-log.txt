@@ -1,0 +1,18 @@
+/Applications/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_APPLE_SILICON_PROCESSOR=arm64 -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /Users/andrealeonardo/CLionProjects/CG_PROJECTS/CGproject
+-- Shared libraries enabled
+-- Looking for ZLIB...
+-- Checking for module 'zzip-zlib-config'
+--   No package 'zzip-zlib-config' found
+-- Found ZLIB: optimized;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd;debug;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd
+-- Checking for module 'minizip'
+--   No package 'minizip' found
+INFO Hunter enabled or RT-extension not found. glTF import/export will be built without Open3DGC-compression.
+-- Enabled importer formats: AMF 3DS AC ASE ASSBIN B3D BVH COLLADA DXF CSM HMP IRRMESH IQM IRR LWO LWS M3D MD2 MD3 MD5 MDC MDL NFF NDO OFF OBJ OGRE OPENGEX PLY MS3D COB BLEND IFC XGL FBX Q3D Q3BSP RAW SIB SMD STL TERRAGEN 3D X X3D GLTF 3MF MMD
+-- Disabled importer formats:
+-- Enabled exporter formats: OBJ OPENGEX PLY 3DS ASSBIN ASSXML M3D COLLADA FBX STL X X3D GLTF 3MF PBRT ASSJSON STEP
+-- Disabled exporter formats:
+-- Treating all warnings as errors (for assimp library only)
+Building Assimp Viewer only supported on Windows.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/andrealeonardo/CLionProjects/CG_PROJECTS/CGproject

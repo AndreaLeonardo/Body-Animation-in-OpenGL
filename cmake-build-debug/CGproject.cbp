@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CGproject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\assimp\;CMake Files\assimp\cmake-modules\;CMake Files\assimp\include\;CMake Files\assimp\include\assimp\;CMake Files\assimp\code\;CMake Files\assimp\tools\;CMake Files\assimp\tools\assimp_cmd\;CMake Files\assimp\test\;CMake Files\assimp\test\headercheck\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glew\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGproject">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/CGproject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGproject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGproject/fast">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/CGproject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGproject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/libassimpd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DMINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"/>
+					<Add option="-DRAPIDJSON_HAS_STDSTRING=1"/>
+					<Add option="-DRAPIDJSON_NOMEMBERITERATORCLASS"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/pugixml/src"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/rapidjson/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/unzip"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/openddlparser/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 assimp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp/fast">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/libassimpd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DMINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"/>
+					<Add option="-DRAPIDJSON_HAS_STDSTRING=1"/>
+					<Add option="-DRAPIDJSON_NOMEMBERITERATORCLASS"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/pugixml/src"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/rapidjson/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/unzip"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../contrib/openddlparser/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 assimp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/assimpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd/fast">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/assimpd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DRAPIDJSON_HAS_STDSTRING=1"/>
+					<Add option="-DRAPIDJSON_NOMEMBERITERATORCLASS"/>
+					<Add option="-DASSIMP_TEST_MODELS_DIR=&quot;/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/models&quot;"/>
+					<Add option="-DASSIMP_TEST_MODELS_NONBSD_DIR=&quot;/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/models-nonbsd&quot;"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/gtest/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/gtest"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/pugixml/src"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/../contrib/rapidjson/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 unit"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit/fast">
+				<Option output="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/bin/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_M3D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_M3D_EXPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DRAPIDJSON_HAS_STDSTRING=1"/>
+					<Add option="-DRAPIDJSON_NOMEMBERITERATORCLASS"/>
+					<Add option="-DASSIMP_TEST_MODELS_DIR=&quot;/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/models&quot;"/>
+					<Add option="-DASSIMP_TEST_MODELS_NONBSD_DIR=&quot;/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/models-nonbsd&quot;"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/."/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/gtest/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/gtest"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/pugixml/src"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/../contrib/rapidjson/include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/../include"/>
+					<Add directory="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/code/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 unit/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3DS/3DSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/3MFTypes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/3MFXmlTags.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFOpcPackage.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/D3MFOpcPackage.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/XmlSerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/3MF/XmlSerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AC/ACLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AC/ACLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter_Geometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter_Material.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter_Node.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/AMF/AMFImporter_Postprocess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/ASE/ASELoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/ASE/ASELoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/ASE/ASEParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/ASE/ASEParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinFileWriter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinFileWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assbin/AssbinLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assjson/cencode.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assjson/cencode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assjson/json_exporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assjson/mesh_splitter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assjson/mesh_splitter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assxml/AssxmlExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assxml/AssxmlExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assxml/AssxmlFileWriter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Assxml/AssxmlFileWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/B3D/B3DImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/B3D/B3DImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/BVH/BVHLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/BVH/BVHLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderBMesh.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderBMesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderCustomData.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderCustomData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderDNA.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderDNA.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderDNA.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderIntermediate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderModifier.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderModifier.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderScene.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderSceneGen.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderTessellator.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Blender/BlenderTessellator.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/COB/COBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/COB/COBLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/COB/COBScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/CSM/CSMLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/CSM/CSMLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Collada/ColladaParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/DXF/DXFHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/DXF/DXFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/DXF/DXFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXBinaryTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXCompileConfig.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXConverter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXDeformer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXDocument.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXDocument.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXDocumentUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXDocumentUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExportNode.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExportNode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExportProperty.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExportProperty.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXImportSettings.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXMeshGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXMeshGeometry.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXModel.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXNodeAttribute.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXProperties.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXProperties.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXTokenizer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/FBX/FBXUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/HMP/HMPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/HMP/HMPLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/HMP/HMPLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/HMP/HalfLifeFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCBoolean.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCCurve.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCOpenings.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCProfile.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCReaderGen1_2x3.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCReaderGen2_2x3.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCReaderGen_2x3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IFC/IFCUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IQM/IQMImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IQM/IQMImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/IQM/iqm.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRMeshLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRMeshLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRShared.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Irr/IRRShared.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWO/LWOMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWS/LWSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/LWS/LWSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DMaterials.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DWrapper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/M3DWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/M3D/m3d.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD2/MD2FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD2/MD2Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD2/MD2Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD2/MD2NormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD3/MD3FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD3/MD3Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD3/MD3Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD5/MD5Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD5/MD5Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD5/MD5Parser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MD5/MD5Parser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDC/MDCFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDC/MDCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDC/MDCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDC/MDCNormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1ImportDefinitions.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HL1MeshTrivert.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/HalfLifeMDLBaseHeader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/LogFunctions.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/MDLDefaultColorMap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/MDLFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/MDLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/MDLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MDL/MDLMaterialLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDCpp14.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDPmdParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDPmxParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDPmxParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MMD/MMDVmdParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MS3D/MS3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/MS3D/MS3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/NDO/NDOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/NDO/NDOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/NFF/NFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/NFF/NFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OFF/OFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OFF/OFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileMtlImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileMtlImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Obj/ObjTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreBinarySerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreBinarySerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreStructs.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreXmlSerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ogre/OgreXmlSerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OpenGEX/OpenGEXExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OpenGEX/OpenGEXExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/OpenGEX/OpenGEXStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Ply/PlyParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3BSP/Q3BSPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3BSP/Q3BSPFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3BSP/Q3BSPFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3D/Q3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Q3D/Q3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Raw/RawLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Raw/RawLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/SIB/SIBImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/SIB/SIBImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/SMD/SMDLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/SMD/SMDLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STEPParser/STEPFileEncoding.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STEPParser/STEPFileEncoding.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STEPParser/STEPFileReader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STEPParser/STEPFileReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STL/STLExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STL/STLExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STL/STLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/STL/STLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Step/StepExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Step/StepExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Terragen/TerragenLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Terragen/TerragenLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Unreal/UnrealLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/Unreal/UnrealLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X/XFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DExporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DGeoHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DGeoHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Geometry2D.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Geometry3D.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Group.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Light.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Macro.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Metadata.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Networking.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Node.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Postprocess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Rendering.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Shape.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DImporter_Texturing.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DXmlHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/X3D/X3DXmlHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/XGL/XGLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/XGL/XGLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFAsset.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFAsset.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFAssetWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFAssetWriter.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFCommon.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF/glTFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Asset.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Asset.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2AssetWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2AssetWriter.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Exporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Exporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Importer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/AssetLib/glTF2/glTF2Importer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/CApi/AssimpCExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/CApi/CInterfaceIOWrapper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/CApi/CInterfaceIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/AssertHandler.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/AssertHandler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Assimp.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Base64.cpp">
+			<Option target="assimp"/>
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/BaseImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/BaseProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/BaseProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Bitmap.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Compression.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Compression.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/CreateAnimMesh.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/DefaultIOStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/DefaultIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/DefaultLogger.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/DefaultProgressHandler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Exceptional.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Exporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/FileLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/IFF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/IOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Importer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Importer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/ImporterRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Maybe.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/PolyTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/PostStepRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/RemoveComments.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/SGSpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/SceneCombiner.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/ScenePreprocessor.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/ScenePreprocessor.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/ScenePrivate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/SkeletonMeshBuilder.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/SpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/StandardShapes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/StbCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/StdOStreamLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Subdivision.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/TargetAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/TargetAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Version.cpp">
+			<Option target="assimp"/>
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/VertexTriangleAdjacency.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/VertexTriangleAdjacency.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/Win32DebugLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/ZipArchiveIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/material.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/scene.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/simd.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Common/simd.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Material/MaterialSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Material/MaterialSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Pbrt/PbrtExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/Pbrt/PbrtExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ArmaturePopulate.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ArmaturePopulate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/CalcTangentsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/CalcTangentsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ComputeUVMappingProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ComputeUVMappingProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ConvertToLHProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ConvertToLHProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/DeboneProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/DeboneProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/DropFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/DropFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/EmbedTexturesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/EmbedTexturesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindDegenerates.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindDegenerates.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindInstancesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindInstancesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindInvalidDataProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FindInvalidDataProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FixNormalsStep.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/FixNormalsStep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenBoundingBoxesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenBoundingBoxesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenVertexNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/GenVertexNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ImproveCacheLocality.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ImproveCacheLocality.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/JoinVerticesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/JoinVerticesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/LimitBoneWeightsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/LimitBoneWeightsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/MakeVerboseFormat.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/MakeVerboseFormat.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/OptimizeGraph.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/OptimizeGraph.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/OptimizeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/OptimizeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/PretransformVertices.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/PretransformVertices.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ProcessHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ProcessHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/RemoveRedundantMaterials.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/RemoveRedundantMaterials.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/RemoveVCProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/RemoveVCProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ScaleProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ScaleProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SortByPTypeProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SortByPTypeProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SplitByBoneCountProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SplitByBoneCountProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SplitLargeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/SplitLargeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/TextureTransform.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/TextureTransform.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/TriangulateProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/TriangulateProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ValidateDataStructure.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/PostProcessing/ValidateDataStructure.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/clipper/clipper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/clipper/clipper.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/gtest/src/gtest-all.cc">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/DDLNode.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/OpenDDLCommon.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/OpenDDLExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/OpenDDLParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/OpenDDLStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/code/Value.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/DDLNode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/OpenDDLExport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/OpenDDLStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/openddlparser/include/openddlparser/Value.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/common/shapes.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/common/shapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/common/utils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/pugixml/src/pugiconfig.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/pugixml/src/pugixml.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/stb/stb_image.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/crypt.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/crypt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/ioapi.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/ioapi.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/unzip.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/unzip/unzip.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/zip/src/miniz.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/zip/src/zip.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/contrib/zip/src/zip.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Base64.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/BaseImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Bitmap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/BlobIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ByteSwapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ColladaMetaData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Compiler/poppack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Compiler/pstdint.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Compiler/pushpack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/CreateAnimMesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/DefaultIOStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/DefaultIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/DefaultLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Exceptional.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Exporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/GenericProperty.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/GltfMaterial.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Hash.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/IOStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/IOStreamBuffer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/IOSystem.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Importer.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/LineSplitter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/LogAux.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/LogStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Logger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/MathFunctions.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/MemoryIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/NullLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ObjMaterial.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Profiler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ProgressHandler.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/RemoveComments.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SGSpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SceneCombiner.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SkeletonMeshBuilder.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SmallVector.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SmoothingGroups.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SmoothingGroups.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/SpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/StandardShapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/StreamReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/StreamWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/StringComparison.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/StringUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Subdivision.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/TinyFormatter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/Vertex.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/XMLTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/XmlParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ZipArchiveIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/aabb.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/ai_assert.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/anim.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/camera.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/cexport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/cfileio.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/cimport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/color4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/color4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/commonMetaData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/defs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/fast_atof.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/importerdesc.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/light.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/material.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/material.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/matrix3x3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/matrix3x3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/matrix4x4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/matrix4x4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/mesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/metadata.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/pbrmaterial.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/postprocess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/qnan.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/quaternion.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/quaternion.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/scene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/texture.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/types.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/vector2.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/vector2.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/vector3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/vector3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/version.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AbstractImportExportBase.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AbstractImportExportBase.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest_aiMatrix3x3.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest_aiMatrix4x4.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest_aiQuaternion.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest_aiVector2D.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/AssimpAPITest_aiVector3D.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/CCompilerTest.c">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/uiScene.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utAssertHandler.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utBase64.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utHash.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utLineSplitter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utMesh.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utSpatialSort.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utStandardShapes.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Common/utXmlParser.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/Assxml/utAssxmlImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/MDL/MDLHL1TestFiles.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/MDL/utMDLImporter_HL1_ImportSettings.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/MDL/utMDLImporter_HL1_Materials.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/MDL/utMDLImporter_HL1_Nodes.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/RAW/utRAWImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/Terragen/utTerragenImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utAssjsonImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utCOBImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utExporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utMD2Importer.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utMD5Importer.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utMDLImporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utNFFImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utOFFImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utOgreImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utQ3BSPFileImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ImportExport/utXGLImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/Main.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/MathTest.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/MathTest.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/RandomNumberGeneration.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/SceneDiffer.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/SceneDiffer.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/TestIOSystem.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/TestModelFactory.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/UTLogStream.h">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ut3DImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/ut3DSImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utACImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utAMFImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utASEImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utAnim.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utArmaturePopulate.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utAssbinImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utB3DImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBVHImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBatchLoader.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBlendImportAreaLight.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBlendImportMaterials.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBlenderImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBlenderIntermediate.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utBlenderWork.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utCSMImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utColladaExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utColladaImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utD3MFImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utDXFImporterExporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utDefaultIOStream.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utFBXImporterExporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utFastAtof.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utFindDegenerates.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utFindInvalidData.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utFixInfacingNormals.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utGenBoundingBoxesProcess.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utGenNormals.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utHMPImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utIFCImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utIOStreamBuffer.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utIOSystem.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utImporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utImproveCacheLocality.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utIssues.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utJoinVertices.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utLWOImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utLWSImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utLimitBoneWeights.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utMDCImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utMaterialSystem.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utMatrix3x3.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utMatrix4x4.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utMetadata.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utObjImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utObjTools.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utOpenGEXImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utPLYImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utPMXImporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utPretransformVertices.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utProfiler.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utQ3DImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utRemoveComments.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utRemoveComponent.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utRemoveRedundantMaterials.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utRemoveVCProcess.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSIBImporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSMDImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSTLImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utScaleProcess.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSceneCombiner.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utScenePreprocessor.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSharedPPData.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSimd.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSortByPType.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utSplitLargeMeshes.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utStringUtils.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utTargetAnimation.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utTextureTransform.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utTriangulate.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utTypes.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utVector3.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utVersion.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utVertexTriangleAdjacency.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utX3DImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utXImporterExporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utglTF2ImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/unit/utglTFImportExport.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/CompareDump.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/Export.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/ImageExtractor.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/Info.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/Main.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/Main.h">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/WriteDump.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/cmake-build-debug/assimp/include/assimp/config.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/main.cpp">
+			<Option target="CGproject"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/ogldev_math_3d.h">
+			<Option target="CGproject"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/ogldev_types.h">
+			<Option target="CGproject"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/ogldev_util.h">
+			<Option target="CGproject"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/assimp.pc.in">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/revision.h.in">
+			<Option virtualFolder="CMake Files\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/FindRT.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/assimp-plain-config.cmake.in">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/cmake-modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/include/assimp/config.h.in">
+			<Option virtualFolder="CMake Files\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\code\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\test\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/assimp/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assimp\test\headercheck\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glew/CopyImportedTargetProperties.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glew/glew-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glew/glew-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glew/glew-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/andrealeonardo/CLionProjects/CGproject/../../../../opt/homebrew/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

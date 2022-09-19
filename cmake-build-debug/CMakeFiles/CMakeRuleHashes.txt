@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+0bf65059c428724b73280dcd17c0f9f5 assimp/CMakeFiles/uninstall
