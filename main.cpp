@@ -48,9 +48,7 @@ int main(int argc, char** argv)
     int x = 200;
     int y = 100;
     glutInitWindowPosition(x, y);
-    int win = glutCreateWindow("Tutorial 25");
-    glEnable( GL_BLEND );
-    glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
+    int win = glutCreateWindow("Body Animation Program");
     glClearColor(0.0,0.0,0.0,1.0);
     printf("window id: %d\n", win);
 
@@ -72,6 +70,8 @@ int main(int argc, char** argv)
 
     switch (action) {
         case 0:
+            glEnable( GL_BLEND );
+            glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
             InitializeGlutCallbacks();
             pAnimationProgram = new AnimationProgram();
             if (!pAnimationProgram->Init()) {

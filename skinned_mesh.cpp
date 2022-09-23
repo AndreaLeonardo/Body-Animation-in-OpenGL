@@ -65,6 +65,7 @@ bool SkinnedMesh::LoadMesh(const string& Filename)
 
     pScene = Importer.ReadFile(Filename.c_str(), ASSIMP_LOAD_FLAGS);
 
+
     if (pScene) {
         m_GlobalInverseTransform = pScene->mRootNode->mTransformation;
         m_GlobalInverseTransform = m_GlobalInverseTransform.Inverse();

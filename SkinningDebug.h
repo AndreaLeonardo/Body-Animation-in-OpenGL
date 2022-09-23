@@ -84,7 +84,7 @@ SkinningDebug::~SkinningDebug()
 }
 bool SkinningDebug::Init()
 {
-    Vector3f CameraPos(0.0f, 5.0f, -5.0f);
+    Vector3f CameraPos(0.0f, 5.0f, -8.0f);
     Vector3f CameraTarget(0.0f, -0.5f, 1.0f);
     Vector3f CameraUp(0.0f, 1.0f, 0.0f);
 
@@ -92,7 +92,7 @@ bool SkinningDebug::Init()
 
     pMesh1 = new SkinnedMesh();
 
-    if (!pMesh1->LoadMesh("blend/fighter/link/model/body/c00/link.md5mesh")) {
+    if (!pMesh1->LoadMesh("link/model/body/c00/link+.md5mesh")) {
         printf("Mesh load failed\n");
         return false;
     }
