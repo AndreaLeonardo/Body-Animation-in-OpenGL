@@ -93,7 +93,7 @@ bool AnimationProgram::Init()
 
     pMesh1 = new SkinnedMesh();
 
-    if (!pMesh1->LoadMesh("link/model/body/c00/link+.md5mesh")) {
+    if (!pMesh1->LoadMesh("link/model/body/c00/link.md5mesh")) {
         printf("Mesh load failed\n");
         return false;
     }
