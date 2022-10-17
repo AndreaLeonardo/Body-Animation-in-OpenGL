@@ -52,12 +52,7 @@ int main(int argc, char** argv)
     glClearColor(0.0,0.0,0.0,1.0);
     printf("window id: %d\n", win);
 
-    //char game_mode_string[64];
-    //snprintf(game_mode_string, sizeof(game_mode_string), "%dx%d@60", WINDOW_WIDTH, WINDOW_HEIGHT);
-    //glutGameModeString(game_mode_string);
-    //glutEnterGameMode();
 
-    // Must be done after glut is initialized!
     GLenum res = glewInit();
     if (res != GLEW_OK) {
         fprintf(stderr, "Error: '%s'\n", glewGetErrorString(res));
@@ -66,7 +61,10 @@ int main(int argc, char** argv)
 
 
 
-    int action = 0;
+    int action = 0; // action = 0 -> visualization of animation
+                    // action = 1 -> visualization of weights debugger
+                    // action = 2 -> visualization of static model
+                    // action = 3 -> visualization of assimp import on terminal
 
     switch (action) {
         case 0:
