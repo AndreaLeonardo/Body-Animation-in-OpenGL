@@ -64,7 +64,7 @@ bool AssimpRenderProgram::Init()
 {
 
     pMesh = new BasicMesh();
-    if (!pMesh->LoadMesh("blend/fighter/link/model/body/c00/link.md5mesh")) {
+    if (!pMesh->LoadMesh("link/model/body/c00/link.md5mesh")) {
         return false;
     } else{
         printf("mesh loaded!");

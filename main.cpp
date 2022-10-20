@@ -61,7 +61,7 @@ int main(int argc, char** argv)
 
 
 
-    int action = 0; // action = 0 -> visualization of animation
+    int action = 3; // action = 0 -> visualization of animation
                     // action = 1 -> visualization of weights debugger
                     // action = 2 -> visualization of static model
                     // action = 3 -> visualization of assimp import on terminal
@@ -98,7 +98,7 @@ int main(int argc, char** argv)
                 printf("Usage: %s <model filename>\n", argv[0]);
                 return 1;
             }
-            char *filename = "blend/fighter/ness/model/body/c00/NESS+.md5mesh";
+            char *filename = "link/model/body/c00/link.md5mesh";
 
             Assimp::Importer Importer;
             const aiScene *pScene = Importer.ReadFile(filename, ASSIMP_LOAD_FLAGS);
